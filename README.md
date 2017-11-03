@@ -1,6 +1,3 @@
-// https://www.youtube.com/watch?v=2OGHdii_42s
-
-
 
     Welcome to your Node.js project on Cloud9 IDE!
 
