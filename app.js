@@ -1,20 +1,22 @@
-//  mysql://bfe389ed4f7e99:c2a177e1
-//  us-cdbr-iron-east-05.cleardb.net
-//  heroku_b2e68739923e353?reconnect=true
+//https://www.youtube.com/watch?v=2OGHdii_42s
     
-
-
-
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
 app.use( express.logger() );
 
+let keys = {
+    host: process.env.hostKey,
+    user: process.env.userKey,
+    password: process.env.pwKey,
+    database: process.env.dbKey
+}
+
 var connection = mysql.createConnection({
-  host     : 'us-cdbr-iron-east-05.cleardb.net',
-  user     : 'bfe389ed4f7e99',
-  password : 'c2a177e1',
-  database : 'heroku_b2e68739923e353'
+  host     : keys.host,
+  user     : keys.user,
+  password : keys.password,
+  database : keys.database
 });
  
 connection.connect();
