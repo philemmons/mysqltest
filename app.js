@@ -13,10 +13,10 @@ let keys = {
 }
 
 var connection = mysql.createConnection({
-  host     : keys.host,
-  user     : keys.user,
-  password : keys.password,
-  database : keys.database
+  'host'     : keys.host,
+  'user'     : keys.user,
+  'password' : keys.password,
+  'database' : keys.database
 });
  
 connection.connect();
