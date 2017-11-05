@@ -1,4 +1,5 @@
-
+//11-04 'create cleardb and tables based on diagrams'
+//11-05 'begin express-sessions'
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
