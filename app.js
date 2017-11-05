@@ -1,6 +1,13 @@
+//https://www.youtube.com/watch?v=2OGHdii_42
+
+//https://www.npmjs.com/package/express-mysql-session
+
+
 const express = require('express');
-const app = express();
+const app = module.exports = express();
 const mysql = require('mysql');
+
+
 
 app.use( express.logger() );
 
