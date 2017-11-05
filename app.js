@@ -1,18 +1,18 @@
-//https://www.youtube.com/watch?v=2OGHdii_42s
+
     
+
+
+
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
 app.use( express.logger() );
 
-
-
-
 var connection = mysql.createConnection({
-    host: process.env.hostKey,
-    user: process.env.userKey,
-    password: process.env.pwKey,
-    database: process.env.dbKey
+  host     : process.env.hKey,
+  user     : process.env.uKey,
+  password : process.env.pwKey,
+  database : process.env.dbKey
 });
  
 connection.connect();
